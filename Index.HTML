@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The daily crumb - Local Pickup Only</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
+</head>
+<body style="font-family: system-ui, sans-serif; margin: 0; background: #fafafa;">
+
+  <header style="background: #D97706; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;">
+    <h1 style="margin: 0; font-size: 1.5rem;">The daily crumb (Pickup Only)</h1>
+    <button class="snipcart-checkout" style="background: white; color: #78350F; border: none; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 500; cursor: pointer;">
+      Cart (<span class="snipcart-items-count">0</span>)
+    </button>
+  </header>
+
+  <div style="background: #fff3cd; color: #856404; text-align: center; padding: 0.75rem; font-weight: 500; border-bottom: 1px solid #ffeeba;">
+    ⚠️ STORES NOTICE: Strictly Local Pickup Only. Available Dates: Sep 4, 2026 (Friday), Sep 5, 2026 (Saturday), Sep 8, 2026 (Tuesday)
+  </div>
+
+  <main style="max-width: 1000px; margin: 2rem auto; padding: 0 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+    
+    <div style="background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🍌</div>
+        <h3 style="margin: 0; font-size: 1.2rem;">Banana bread</h3>
+        <p style="color: #666; font-size: 0.85rem; margin: 0.5rem 0;">Sweet loaf made with ripe bananas</p>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="font-weight: 600;">$5.50</span>
+        
+        <!-- Snipcart Button config with shippable=false to enforce local pickup -->
+        <button class="snipcart-add-item"
+          data-item-id="banana"
+          data-item-name="Banana bread"
+          data-item-price="5.5"
+          data-item-url="/"
+          data-item-shippable="false"
+          data-item-custom1-name="Pickup Date"
+          data-item-custom1-options="Sep 4, 2026 (Friday)|Sep 5, 2026 (Saturday)|Sep 8, 2026 (Tuesday)"
+          data-item-description="Sweet loaf made with ripe bananas"
+          style="background: #D97706; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 500;">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+    <div style="background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🥯</div>
+        <h3 style="margin: 0; font-size: 1.2rem;">Everything bagel bread</h3>
+        <p style="color: #666; font-size: 0.85rem; margin: 0.5rem 0;">Savory blend of garlic, sesame, and poppy seeds</p>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="font-weight: 600;">$6.00</span>
+        
+        <!-- Snipcart Button config with shippable=false to enforce local pickup -->
+        <button class="snipcart-add-item"
+          data-item-id="everything"
+          data-item-name="Everything bagel bread"
+          data-item-price="6"
+          data-item-url="/"
+          data-item-shippable="false"
+          data-item-custom1-name="Pickup Date"
+          data-item-custom1-options="Sep 4, 2026 (Friday)|Sep 5, 2026 (Saturday)|Sep 8, 2026 (Tuesday)"
+          data-item-description="Savory blend of garlic, sesame, and poppy seeds"
+          style="background: #D97706; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 500;">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+    <div style="background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🍞</div>
+        <h3 style="margin: 0; font-size: 1.2rem;">Plain bread</h3>
+        <p style="color: #666; font-size: 0.85rem; margin: 0.5rem 0;">Classic everyday soft white loaf</p>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="font-weight: 600;">$3.50</span>
+        
+        <!-- Snipcart Button config with shippable=false to enforce local pickup -->
+        <button class="snipcart-add-item"
+          data-item-id="plain"
+          data-item-name="Plain bread"
+          data-item-price="3.5"
+          data-item-url="/"
+          data-item-shippable="false"
+          data-item-custom1-name="Pickup Date"
+          data-item-custom1-options="Sep 4, 2026 (Friday)|Sep 5, 2026 (Saturday)|Sep 8, 2026 (Tuesday)"
+          data-item-description="Classic everyday soft white loaf"
+          style="background: #D97706; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 500;">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+    <div style="background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🔥</div>
+        <h3 style="margin: 0; font-size: 1.2rem;">BBQ bread</h3>
+        <p style="color: #666; font-size: 0.85rem; margin: 0.5rem 0;">Smoky and sweet barbecue-infused specialty crust</p>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="font-weight: 600;">$6.50</span>
+        
+        <!-- Snipcart Button config with shippable=false to enforce local pickup -->
+        <button class="snipcart-add-item"
+          data-item-id="bbq"
+          data-item-name="BBQ bread"
+          data-item-price="6.5"
+          data-item-url="/"
+          data-item-shippable="false"
+          data-item-custom1-name="Pickup Date"
+          data-item-custom1-options="Sep 4, 2026 (Friday)|Sep 5, 2026 (Saturday)|Sep 8, 2026 (Tuesday)"
+          data-item-description="Smoky and sweet barbecue-infused specialty crust"
+          style="background: #D97706; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 500;">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <div id="snipcart" data-api-key="YOUR_SNIPCART_PUBLIC_API_KEY" data-config-modal-custom-fields="[{&quot;name&quot;:&quot;Required Pickup Phone&quot;,&quot;required&quot;:true}]" hidden></div>
+  <script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
+</body>
+</html>    
