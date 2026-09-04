@@ -121,5 +121,26 @@
 
   <div id="snipcart" data-api-key="YOUR_SNIPCART_PUBLIC_API_KEY" data-config-modal-custom-fields="[{&quot;name&quot;:&quot;Required Pickup Phone&quot;,&quot;required&quot;:true}]" hidden></div>
   <script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
+<!-- 36-Hour & Weekend Pickup Warning Notice + Google Maps Integration -->
+<div class="bg-amber-50 border border-amber-200 rounded-xl p-4 flex gap-3">
+    <span class="text-xl mt-0.5">⏳</span>
+    <div class="text-sm text-amber-900 leading-relaxed w-full">
+        <p class="font-semibold mb-1">Important Pre-Order Guidelines:</p>
+        <ul class="list-disc pl-4 space-y-1 text-amber-800 mb-3">
+            <li>Pickups are exclusively available on <strong>Saturdays & Sundays</strong>.</li>
+            <li>Requires a strict <strong>36-hour fermentation notice</strong> before your chosen pickup time slot.</li>
+            <li>Strict limit of <strong>2 loaves max per customer order</strong> to ensure equal distribution.</li>
+        </ul>
+        <div class="pt-2 border-t border-amber-200/60 flex items-center justify-between flex-wrap gap-2">
+            <p class="text-xs text-amber-800 font-medium">📍 <strong>Pickup Location:</strong> 1927 Roaring Run Rd, Gillett, PA</p>
+            <a href="https://google.com" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="text-xs font-semibold text-amber-900 underline hover:text-amber-700 flex items-center gap-1 transition-colors">
+               Get Directions on Google Maps ↗
+            </a>
+        </div>
+    </div>
+</div>
 </body>
 </html>    
