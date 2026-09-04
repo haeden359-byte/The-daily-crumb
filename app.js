@@ -3,14 +3,14 @@ const maxCapacityPerDay = 10;
 
 window.onload = function() {
   if (!localStorage.getItem('storeName')) localStorage.setItem('storeName', 'BREAD STORE');
-  if (!localStorage.getItem('cashTag')) localStorage.setItem('cashTag', 'YourCashTag');
+  if (!localStorage.getItem('cashTag')) localStorage.setItem('cashTag', '$hhackenberg');
   if (!localStorage.getItem('skipDays')) localStorage.setItem('skipDays', JSON.stringify([]));
   if (!localStorage.getItem('orders')) localStorage.setItem('orders', JSON.stringify([]));
 
-  if (!localStorage.getItem('price_banana')) localStorage.setItem('price_banana', '8.00');
-  if (!localStorage.getItem('price_bagel')) localStorage.setItem('price_bagel', '9.50');
-  if (!localStorage.getItem('price_plain')) localStorage.setItem('price_plain', '6.00');
-  if (!localStorage.getItem('price_bbq')) localStorage.setItem('price_bbq', '10.00');
+  if (!localStorage.getItem('price_banana')) localStorage.setItem('price_banana', '5.00');
+  if (!localStorage.getItem('price_bagel')) localStorage.setItem('price_bagel', '6.50');
+  if (!localStorage.getItem('price_plain')) localStorage.setItem('price_plain', '4.00');
+  if (!localStorage.getItem('price_bbq')) localStorage.setItem('price_bbq', '9.00');
 
   applyStoredConfigs();
   startLiveClock();
